@@ -14,20 +14,27 @@
 	<div class="app">
 		<header>
 			<div class="titlePrincipal">
-				<h1>Meu Kanban</h1>
+				<h1>Meu Kanban</h1>	 
+			</div>
+		
+			<div class="menu">
+				<div class="adc" onclick="adicionar()"></div>
+				<div class="rmv" onclick="remover()"></div>	
 			</div>
 		</header>
 		<div class="lists">
 			
 			<div class="list">
 				
-				<div class="subtitle"> <p>TO DO</p></div>
+				<div class="subtitle"> <p>TO-DO</p></div>
 				
 				<div class="list-item" draggable="true"> dormir </div>
 				<div class="list-item" draggable="true"> estudar</div>
 				<div class="list-item" draggable="true"> trabalhar</div>
 				<div class="list-item" draggable="true"> ler</div>
 				<div class="list-item" draggable="true"> traduzir textos</div>
+
+
 			</div>
 
 			<div class="list"><div class="subtitle"><p>DOING</p></div>
@@ -43,5 +50,6 @@
 	</div>
 	<script src="main.js"></script>
 	<script src="DragDropTouch.js"></script>
+	<script src="functions.js"></script>
 </body>
 </html>

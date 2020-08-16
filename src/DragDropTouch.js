@@ -1,3 +1,5 @@
+/**https://developer.mozilla.org/pt-BR/docs/DragDrop/Drag_and_Drop */
+
 var DragDropTouch;
 (function (DragDropTouch_1) {
     'use strict';
