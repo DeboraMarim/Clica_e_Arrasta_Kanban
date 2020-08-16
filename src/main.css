@@ -98,7 +98,7 @@ header {
 
 .adc{
 
-	background-image: url("../img/adcionar.png");
+	background-image: url("./img/adcionar.png");
 	height: 40px;
 	width: 50px;
 	float: left;
@@ -109,7 +109,7 @@ header {
 }
 
 .rmv{
-	background-image: url("../img/lixeira.png");
+	background-image: url("./img/lixeira.png");
 	height: 40px;
 	width: 50px;
 	float: left;
